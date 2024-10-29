@@ -1,26 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: musyilma <musyilma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/28 14:16:54 by musyilma          #+#    #+#             */
-/*   Updated: 2024/10/29 12:08:07 by musyilma         ###   ########.fr       */
+/*   Created: 2024/10/29 12:19:26 by musyilma          #+#    #+#             */
+/*   Updated: 2024/10/29 12:50:12 by musyilma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
-void	ft_putendl_fd(char *s, int fd)
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
 	int	i;
 
 	i = 0;
 	while (s[i])
 	{
-		write(fd, &s[i], 1);
+		f(i, &s[i]);
 		i++;
 	}
-	write(fd, "\n", 1);
+}
+
+void b(unsigned int a,char *b)
+{
+	int i;
+	i=0;
+	if(a%2==1 && b[i]>='a' && b[i]<='z')
+	{
+		b[i]-=32;	
+	}
+}
+
+
+int main()
+{
+	char a[]="mustafa";
+	ft_striteri(a,b);
+	printf("%s",a);
 }
