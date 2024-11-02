@@ -6,11 +6,12 @@
 /*   By: musyilma <musyilma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 14:09:17 by musyilma          #+#    #+#             */
-/*   Updated: 2024/10/29 00:07:56 by musyilma         ###   ########.fr       */
+/*   Updated: 2024/11/02 08:58:51 by musyilma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

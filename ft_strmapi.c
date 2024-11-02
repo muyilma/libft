@@ -6,11 +6,12 @@
 /*   By: musyilma <musyilma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 04:11:29 by musyilma          #+#    #+#             */
-/*   Updated: 2024/10/29 12:13:06 by musyilma         ###   ########.fr       */
+/*   Updated: 2024/11/02 09:02:36 by musyilma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

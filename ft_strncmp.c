@@ -6,11 +6,9 @@
 /*   By: musyilma <musyilma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 16:08:57 by musyilma          #+#    #+#             */
-/*   Updated: 2024/10/21 13:13:55 by musyilma         ###   ########.fr       */
+/*   Updated: 2024/11/02 09:12:05 by musyilma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {

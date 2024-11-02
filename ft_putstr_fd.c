@@ -6,11 +6,10 @@
 /*   By: musyilma <musyilma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 14:17:05 by musyilma          #+#    #+#             */
-/*   Updated: 2024/10/28 14:17:08 by musyilma         ###   ########.fr       */
+/*   Updated: 2024/11/02 09:10:31 by musyilma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <fcntl.h>
 #include <unistd.h>
 
 void	ft_putstr_fd(char *s, int fd)

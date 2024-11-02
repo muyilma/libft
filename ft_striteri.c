@@ -6,11 +6,9 @@
 /*   By: musyilma <musyilma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 12:19:26 by musyilma          #+#    #+#             */
-/*   Updated: 2024/10/29 12:50:12 by musyilma         ###   ########.fr       */
+/*   Updated: 2024/11/02 09:11:00 by musyilma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {

@@ -6,11 +6,9 @@
 /*   By: musyilma <musyilma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 11:42:56 by musyilma          #+#    #+#             */
-/*   Updated: 2024/10/09 12:24:12 by musyilma         ###   ########.fr       */
+/*   Updated: 2024/11/02 08:29:22 by musyilma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isdigit(int c)
 {

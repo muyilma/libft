@@ -6,11 +6,12 @@
 /*   By: musyilma <musyilma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 19:14:41 by musyilma          #+#    #+#             */
-/*   Updated: 2024/10/24 14:52:26 by musyilma         ###   ########.fr       */
+/*   Updated: 2024/11/02 08:58:30 by musyilma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 char	*ft_strdup(const char *s1)
 {
